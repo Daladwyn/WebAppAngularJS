@@ -29,5 +29,8 @@ namespace WebAppAngularJS.Models
         {
             return new ApplicationDbContext();
         }
+
+        public DbSet<Person> People { get; set; }
+        public DbSet<Car> Cars { get;set;}
     }
 }
